@@ -1,0 +1,29 @@
+#version 330 core
+
+layout(location = 0) in vec4 vertexPosition_modelspace;
+layout(location = 1) in vec4 vertexColor;
+layout(location = 2) in vec3 vertexNormal;
+layout(location = 3) in vec2 aTexCoord;
+
+out vec4 vs_vertexColor;
+out vec3 FragPos;
+out vec3 Normal;
+out vec2 TexCoord;
+
+uniform mat4 M;
+uniform mat4 V;
+uniform mat4 P;
+
+void main() {
+    gl_PointSize = 10.0;
+
+    gl_Position = P * V * M * vertexPosition_modelspace;
+
+    FragPos = vec3(M * vertexPosition_modelspace);
+
+    Normal = normalize(mat3(transpose(inverse(M))) * vertexNormal);
+
+    vs_vertexColor = vertexColor;
+
+    TexCoord = aTexCoord;
+}

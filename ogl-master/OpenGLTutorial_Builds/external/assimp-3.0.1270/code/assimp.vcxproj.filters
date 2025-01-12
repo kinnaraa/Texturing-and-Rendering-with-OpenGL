@@ -1,0 +1,1209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\AssimpPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\TerragenLoader.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ColladaLoader.cpp">
+      <Filter>Collada</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ColladaParser.cpp">
+      <Filter>Collada</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ColladaExporter.cpp">
+      <Filter>Collada</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IRRLoader.cpp">
+      <Filter>Irr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IRRMeshLoader.cpp">
+      <Filter>Irr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IRRShared.cpp">
+      <Filter>Irr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\M3Importer.cpp">
+      <Filter>M3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OFFLoader.cpp">
+      <Filter>OFFFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ObjFileImporter.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ObjFileMtlImporter.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ObjFileParser.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ObjExporter.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OgreImporter.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OgreMaterial.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OgreMesh.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OgreSkeleton.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\PlyLoader.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\PlyParser.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\PlyExporter.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Q3BSPZipArchive.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\RawLoader.cpp">
+      <Filter>Raw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\STLExporter.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\UnrealLoader.cpp">
+      <Filter>Unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\XFileImporter.cpp">
+      <Filter>XFile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\XFileParser.cpp">
+      <Filter>XFile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderLoader.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderDNA.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderScene.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderModifier.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFCReaderGen.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\STEPFileReader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\irrXML\irrXML.cpp">
+      <Filter>IrrXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.c">
+      <Filter>ConvertUTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\AssimpPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ByteSwap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DefaultIOStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DefaultIOSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\StdOStreamLogStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SceneCombiner.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\IOStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\TerragenLoader.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ColladaHelper.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ColladaLoader.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ColladaParser.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ColladaExporter.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IRRLoader.h">
+      <Filter>Irr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IRRMeshLoader.h">
+      <Filter>Irr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IRRShared.h">
+      <Filter>Irr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\M3Importer.h">
+      <Filter>M3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OFFLoader.h">
+      <Filter>OFFFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ObjFileData.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ObjFileImporter.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ObjFileMtlImporter.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ObjFileParser.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ObjTools.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\ObjExporter.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OgreImporter.hpp">
+      <Filter>Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\OgreXmlHelper.hpp">
+      <Filter>Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\PlyLoader.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\PlyParser.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\PlyExporter.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\Q3BSPZipArchive.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\RawLoader.h">
+      <Filter>Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\STLExporter.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\UnrealLoader.h">
+      <Filter>Unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\XFileHelper.h">
+      <Filter>XFile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\XFileImporter.h">
+      <Filter>XFile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\XFileParser.h">
+      <Filter>XFile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MD4FileData.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderLoader.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderDNA.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderDNA.inl">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderScene.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderSceneGen.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderIntermediate.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BlenderModifier.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFCReaderGen.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\STEPFile.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\STEPFileReader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\irrXML\heapsort.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\irrXML\irrArray.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\irrXML\irrString.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\irrXML\irrTypes.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\irrXML\irrXML.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.h">
+      <Filter>ConvertUTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BoostWorkaround\boost\math\common_factor_rt.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BoostWorkaround\boost\foreach.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BoostWorkaround\boost\format.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BoostWorkaround\boost\scoped_array.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BoostWorkaround\boost\scoped_ptr.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BoostWorkaround\boost\shared_array.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BoostWorkaround\boost\shared_ptr.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BoostWorkaround\boost\make_shared.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BoostWorkaround\boost\static_assert.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\BoostWorkaround\boost\tuple\tuple.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{69DD9043-3016-3F5D-9ABC-A7047998F1BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{E9AD7354-2358-32B3-B925-A23401708E81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{49D0813D-D4FB-3AF5-9A66-5AE9AF415DC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{93026043-8371-3EE2-80AC-BC94F3F4D85A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLENDER">
+      <UniqueIdentifier>{9EB71EA9-A453-3639-AFF8-DC485E5BD238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{6805794E-3513-38EB-9BB0-06E6CCCF048D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost">
+      <UniqueIdentifier>{1DF818B5-8E86-32FC-A07A-B82DC4692007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{6DBB13FD-CCF4-3BA8-9F46-C9BB7AB72181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{B35946B7-8961-3121-9EA4-F8ABC53D46BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{7645A85F-E7AC-3D20-A766-797CFE54BC04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collada">
+      <UniqueIdentifier>{A1AD38E2-A67F-3CE9-9EDB-6B4655CF187A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{65B9D156-CFF7-3825-AA55-678F7945B3AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{5D1EBBFB-6A87-3842-8712-040F76D6600B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvertUTF">
+      <UniqueIdentifier>{AEB8AB57-F98C-3682-A2A3-19C33763AF0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{64152A24-1E65-3E93-9BD3-C23E13853EBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{CAE66370-E93C-3DFC-865D-39D884CBE265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{9681B2DE-2F04-35F0-9148-A1C519FA2E3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{465B66E9-7A69-35CD-AC40-C9462BBC5AAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0CF8DC2B-3405-34F9-A23B-7D1EE07F5FA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{C54EF6C5-0BCF-36CE-9BC1-EE2F9D7EA8D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Irr">
+      <UniqueIdentifier>{C5BB9ABF-1BFA-3DB2-8E08-4FAB35D4D47F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{97604970-D134-339E-B495-17E6EF869850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{ACB41BEE-277B-3F82-8300-7F7630335407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{60481348-EA9C-3AAC-A037-2F26C57D1678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{07704C2E-3C58-3D6E-9634-883B3FFE3E7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="M3">
+      <UniqueIdentifier>{FCC2EF9E-9915-39EA-A8EA-172F3679F94E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{37E0CF8E-0069-3D42-9AFB-A47F4F9BFD22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{38FFB91A-11F6-3A0A-8D3E-B931060EDD2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{F0B9DE88-8445-309B-835C-897EED92533A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{EC722855-90E2-362F-8D66-745AA4241E6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{72900A56-5591-34FF-97BA-8087B6FFA73B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{C2ED6C1C-1567-3A74-944B-8CD7F2A29A6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{F2674B46-7DB6-311A-A8E7-1A1F12EAFCB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{D4ECF5DF-59CC-3959-80B3-B28A244FBBCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{697E8A71-569B-3453-B078-5E52C334FF26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFFFormat">
+      <UniqueIdentifier>{88722633-BA0C-3AD7-9B10-BA812D7BCE76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj">
+      <UniqueIdentifier>{457512A1-1EAF-3D9A-BA9E-1620141D5A4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre">
+      <UniqueIdentifier>{73078394-94CD-3472-82E4-99E021E3371B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ply">
+      <UniqueIdentifier>{70627241-DD71-3757-9A1B-2A3781B4456C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{985A1100-D785-3D4B-8E6B-7C7122E3AFB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{C0B735E2-20C9-3C16-91A0-90C9540B4A53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{1D4B0005-2C4F-30FA-969C-88B8FDECC64A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{081EF82C-4855-3D68-8E8E-5E9CB36DFE74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Raw">
+      <UniqueIdentifier>{E4C0B6BE-D295-361C-BA69-1A1D226FC827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{11039608-4998-3A04-BCD9-8C38E22E3DD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{548B46DE-1D79-3055-B2BA-397CB9D032AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{50662038-0B71-380C-B875-CF49884F7420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unreal">
+      <UniqueIdentifier>{F674B5B5-15C8-3C36-BBCA-5E7D7ED50FA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XFile">
+      <UniqueIdentifier>{CE40801F-48B6-3C6F-96DA-6C4FF02538E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{EA73F87D-2B97-3CCF-BC63-EFCA93A340CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{24372446-5ED2-3CF2-B3ED-B1F622238257}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

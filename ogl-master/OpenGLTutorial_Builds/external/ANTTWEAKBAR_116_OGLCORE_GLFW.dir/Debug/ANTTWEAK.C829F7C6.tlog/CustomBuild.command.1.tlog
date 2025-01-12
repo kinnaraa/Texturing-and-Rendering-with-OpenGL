@@ -1,0 +1,10 @@
+^C:\USERS\KINNA\DOWNLOADS\OGL-MASTER\OGL-MASTER\EXTERNAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kinna/Downloads/ogl-master/ogl-master -BC:/Users/kinna/Downloads/OpenGLTutorial_Builds --check-stamp-file C:/Users/kinna/Downloads/OpenGLTutorial_Builds/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kinna\\Downloads\\OpenGLTutorial_Builds\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD40E67D-97DC-3EED-A0CC-51DC56DE86D0}|tutorial02_red_triangle.vcxproj|C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\tutorial02_red_triangle\\tutorial02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD40E67D-97DC-3EED-A0CC-51DC56DE86D0}|tutorial02_red_triangle.vcxproj|C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\tutorial02_red_triangle\\SimpleVertexShader.vertexshader||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD40E67D-97DC-3EED-A0CC-51DC56DE86D0}|tutorial02_red_triangle.vcxproj|C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\tutorial02_red_triangle\\SimpleFragmentShader.fragmentshader||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7380B3DC-5526-3E03-9424-EA1561C33C53}|p1.vcxproj|C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\misc05_picking\\p1_source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CECEDD04-CE3F-3971-85EE-D027D8A94C16}|misc05_picking_custom.vcxproj|C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\misc05_picking\\misc05_picking_custom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleVertexShader.vertexshader",
+              "DocumentMoniker": "C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\tutorial02_red_triangle\\SimpleVertexShader.vertexshader",
+              "RelativeDocumentMoniker": "..\\ogl-master\\ogl-master\\tutorial02_red_triangle\\SimpleVertexShader.vertexshader",
+              "ToolTip": "C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\tutorial02_red_triangle\\SimpleVertexShader.vertexshader",
+              "RelativeToolTip": "..\\ogl-master\\ogl-master\\tutorial02_red_triangle\\SimpleVertexShader.vertexshader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-28T22:07:17.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleFragmentShader.fragmentshader",
+              "DocumentMoniker": "C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\tutorial02_red_triangle\\SimpleFragmentShader.fragmentshader",
+              "RelativeDocumentMoniker": "..\\ogl-master\\ogl-master\\tutorial02_red_triangle\\SimpleFragmentShader.fragmentshader",
+              "ToolTip": "C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\tutorial02_red_triangle\\SimpleFragmentShader.fragmentshader",
+              "RelativeToolTip": "..\\ogl-master\\ogl-master\\tutorial02_red_triangle\\SimpleFragmentShader.fragmentshader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-28T22:07:10.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tutorial02.cpp",
+              "DocumentMoniker": "C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\tutorial02_red_triangle\\tutorial02.cpp",
+              "RelativeDocumentMoniker": "..\\ogl-master\\ogl-master\\tutorial02_red_triangle\\tutorial02.cpp",
+              "ToolTip": "C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\tutorial02_red_triangle\\tutorial02.cpp",
+              "RelativeToolTip": "..\\ogl-master\\ogl-master\\tutorial02_red_triangle\\tutorial02.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-28T22:03:02.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "p1_source.cpp",
+              "DocumentMoniker": "C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\misc05_picking\\p1_source.cpp",
+              "RelativeDocumentMoniker": "..\\ogl-master\\ogl-master\\misc05_picking\\p1_source.cpp",
+              "ToolTip": "C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\misc05_picking\\p1_source.cpp",
+              "RelativeToolTip": "..\\ogl-master\\ogl-master\\misc05_picking\\p1_source.cpp",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-27T22:05:17.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "misc05_picking_custom.cpp",
+              "DocumentMoniker": "C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\misc05_picking\\misc05_picking_custom.cpp",
+              "RelativeDocumentMoniker": "..\\ogl-master\\ogl-master\\misc05_picking\\misc05_picking_custom.cpp",
+              "ToolTip": "C:\\Users\\kinna\\Downloads\\ogl-master\\ogl-master\\misc05_picking\\misc05_picking_custom.cpp",
+              "RelativeToolTip": "..\\ogl-master\\ogl-master\\misc05_picking\\misc05_picking_custom.cpp",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAAMUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-27T00:26:02.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

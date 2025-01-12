@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CCAF090E-189E-3C27-8F5B-479FBE4DCE3A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kinna\Downloads\ogl-master\ogl-master\external\AntTweakBar-1.16\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glfw-3.1.2\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glm-0.9.7.1;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glew-1.13.0\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\bullet-2.81-rev2613\src;C:\Users\kinna\Downloads\ogl-master\ogl-master\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kinna\Downloads\ogl-master\ogl-master\external\AntTweakBar-1.16\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glfw-3.1.2\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glm-0.9.7.1;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glew-1.13.0\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\bullet-2.81-rev2613\src;C:\Users\kinna\Downloads\ogl-master\ogl-master\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kinna\Downloads\ogl-master\ogl-master\external\AntTweakBar-1.16\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glfw-3.1.2\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glm-0.9.7.1;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glew-1.13.0\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\bullet-2.81-rev2613\src;C:\Users\kinna\Downloads\ogl-master\ogl-master\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kinna\Downloads\ogl-master\ogl-master\external\AntTweakBar-1.16\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glfw-3.1.2\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glm-0.9.7.1;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\glew-1.13.0\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\assimp-3.0.1270\include;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\bullet-2.81-rev2613\src;C:\Users\kinna\Downloads\ogl-master\ogl-master\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kinna\Downloads\ogl-master\ogl-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/kinna/Downloads/ogl-master/ogl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kinna/Downloads/ogl-master/ogl-master -BC:/Users/kinna/Downloads/OpenGLTutorial_Builds --check-stamp-file C:/Users/kinna/Downloads/OpenGLTutorial_Builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeCCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeCXXCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeSystem.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/kinna/Downloads/ogl-master/ogl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kinna/Downloads/ogl-master/ogl-master -BC:/Users/kinna/Downloads/OpenGLTutorial_Builds --check-stamp-file C:/Users/kinna/Downloads/OpenGLTutorial_Builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeCCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeCXXCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeSystem.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/kinna/Downloads/ogl-master/ogl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kinna/Downloads/ogl-master/ogl-master -BC:/Users/kinna/Downloads/OpenGLTutorial_Builds --check-stamp-file C:/Users/kinna/Downloads/OpenGLTutorial_Builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeCCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeCXXCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeSystem.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/kinna/Downloads/ogl-master/ogl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kinna/Downloads/ogl-master/ogl-master -BC:/Users/kinna/Downloads/OpenGLTutorial_Builds --check-stamp-file C:/Users/kinna/Downloads/OpenGLTutorial_Builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeCCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeCXXCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\3.29.0\CMakeSystem.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\kinna\Downloads\ogl-master\ogl-master\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kinna\Downloads\OpenGLTutorial_Builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\ZERO_CHECK.vcxproj">
+      <Project>{15B11E7E-1CE8-33A9-BE97-39DE45BADD6E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj">
+      <Project>{C829F7C6-289E-39E6-93E7-9F43350E08BC}</Project>
+      <Name>ANTTWEAKBAR_116_OGLCORE_GLFW</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\bullet-2.81-rev2613\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{5DD22F15-C0D1-3CF0-AC74-59F961179F31}</Project>
+      <Name>BulletCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\bullet-2.81-rev2613\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{399126AC-D217-373E-82F6-83C0E676B45F}</Project>
+      <Name>BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\bullet-2.81-rev2613\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{8DD2B3B7-20FC-3F16-AE10-C0949ACC67A6}</Project>
+      <Name>BulletSoftBody</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\GLEW_1130.vcxproj">
+      <Project>{D57804B8-2AFF-37DD-B42A-520F7BC1DA4E}</Project>
+      <Name>GLEW_1130</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\bullet-2.81-rev2613\src\LinearMath\LinearMath.vcxproj">
+      <Project>{97F609DB-0DC9-3612-88F2-E4DE6C62C9D3}</Project>
+      <Name>LinearMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\assimp-3.0.1270\code\assimp.vcxproj">
+      <Project>{0E966B78-93CA-319F-8250-8620194BD803}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{6CC19EAF-D990-369E-A3E6-B05EE564420A}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{D8D267D9-1189-3CF6-B619-FAE64BE2852A}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{12F75396-E554-3455-99A8-54B0B0024ED0}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{945E7401-0C0D-35B6-B96E-F983575C2D80}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{334FA05F-76AF-3643-805C-94B49BB2DE85}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{101CE0A7-33D9-3E2F-A42D-6B8E91A14E9C}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{2D7EEB6B-0FC5-3F72-A0C6-3D73CE894FFF}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{A3F43366-42C6-3AD1-AED5-45E2A7FC0C47}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{7F0E475B-7BC3-3578-BB8D-4295813696B4}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{8547D946-B4FF-3FBD-BF98-C609BDEF4B6D}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{8271FB7C-4212-3A0F-8A28-59A40C2CF8CD}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{29A5D5B3-41E1-3935-8BA1-DED5AFB5E295}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\misc05_picking_BulletPhysics.vcxproj">
+      <Project>{B42A01E7-90D6-3D91-BAE4-A7E585945010}</Project>
+      <Name>misc05_picking_BulletPhysics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\misc05_picking_custom.vcxproj">
+      <Project>{CECEDD04-CE3F-3971-85EE-D027D8A94C16}</Project>
+      <Name>misc05_picking_custom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\misc05_picking_slow_easy.vcxproj">
+      <Project>{59CD57D5-3D90-3A2F-A6A6-445C533E350C}</Project>
+      <Name>misc05_picking_slow_easy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{BDFE58BF-D30C-317A-AC67-40E79E67166C}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{2162B709-0C96-3E21-8B95-E4BCC0037C29}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\p1.vcxproj">
+      <Project>{7380B3DC-5526-3E03-9424-EA1561C33C53}</Project>
+      <Name>p1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{A4FDA794-4519-32DE-84D3-8D384ABD903F}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\playground.vcxproj">
+      <Project>{7767683A-A20E-3878-B1E2-BCA8FEFE12F4}</Project>
+      <Name>playground</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{B5EF25C2-9666-3CC4-BA4A-B97E27164569}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{29200A17-83CD-3A20-9890-0E63502BCBF5}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{4DF52A74-A125-325D-855D-56065C8549E3}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{F3A0741C-C6C5-3B9E-BF96-0B44CF04D31F}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{B265C892-3FC7-39D7-89DA-C0A5D04B3075}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{217C50EA-3D28-37CF-9435-D2C84B6FF589}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{85656C76-2227-33FC-9C70-2C3E440C51F5}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial01_first_window.vcxproj">
+      <Project>{E1805BB5-7D76-33A6-AFFF-80172E9E9F8F}</Project>
+      <Name>tutorial01_first_window</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial02_red_triangle.vcxproj">
+      <Project>{DD40E67D-97DC-3EED-A0CC-51DC56DE86D0}</Project>
+      <Name>tutorial02_red_triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial03_matrices.vcxproj">
+      <Project>{1EB6BC3C-C4C8-3933-8D93-740025307D4B}</Project>
+      <Name>tutorial03_matrices</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial04_colored_cube.vcxproj">
+      <Project>{57DB3934-A66B-3C12-B800-C5FE53DFD3B5}</Project>
+      <Name>tutorial04_colored_cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial05_textured_cube.vcxproj">
+      <Project>{7D60330D-1C81-30A4-B63F-13957433DBE1}</Project>
+      <Name>tutorial05_textured_cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial06_keyboard_and_mouse.vcxproj">
+      <Project>{E6C4D234-5684-3FD0-9F3D-4F11079FF04C}</Project>
+      <Name>tutorial06_keyboard_and_mouse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial07_model_loading.vcxproj">
+      <Project>{E613D4E9-B7BE-3224-B303-F11A81C14E50}</Project>
+      <Name>tutorial07_model_loading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial08_basic_shading.vcxproj">
+      <Project>{6BE51F31-BB82-3D7F-BF42-013F88D7044E}</Project>
+      <Name>tutorial08_basic_shading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial09_AssImp.vcxproj">
+      <Project>{CAC4FD15-E4E7-3F85-B6CD-AFB4FA2B9952}</Project>
+      <Name>tutorial09_AssImp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial09_several_objects.vcxproj">
+      <Project>{1D2E8AE7-9370-3301-BAE0-D772967A0A8A}</Project>
+      <Name>tutorial09_several_objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial09_vbo_indexing.vcxproj">
+      <Project>{58CDA8C7-0B38-3453-A039-50756F4BA2F6}</Project>
+      <Name>tutorial09_vbo_indexing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial10_transparency.vcxproj">
+      <Project>{16D4B163-C557-3E6B-A92C-7C611641F019}</Project>
+      <Name>tutorial10_transparency</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial11_2d_fonts.vcxproj">
+      <Project>{EA42127D-BD86-318B-A819-20FDE68C1135}</Project>
+      <Name>tutorial11_2d_fonts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial12_extensions.vcxproj">
+      <Project>{5F6AC224-7393-3B70-AD56-4F5724A93CF6}</Project>
+      <Name>tutorial12_extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial13_normal_mapping.vcxproj">
+      <Project>{9BFE2020-00F1-3208-A4E3-489934657F65}</Project>
+      <Name>tutorial13_normal_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial14_render_to_texture.vcxproj">
+      <Project>{6107C41B-E473-322B-A35B-80ADDA5A3B6B}</Project>
+      <Name>tutorial14_render_to_texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial15_lightmaps.vcxproj">
+      <Project>{11BF05F0-5C53-3F36-95E9-67478F53E3CF}</Project>
+      <Name>tutorial15_lightmaps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial16_shadowmaps.vcxproj">
+      <Project>{2551EB30-6766-361D-9105-18A56C038810}</Project>
+      <Name>tutorial16_shadowmaps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial16_shadowmaps_simple.vcxproj">
+      <Project>{0D5E450A-FF48-3C81-9893-BB59EC9F4F75}</Project>
+      <Name>tutorial16_shadowmaps_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial17_rotations.vcxproj">
+      <Project>{B74634F8-A2E8-3F1D-8DB1-8F3EBEFB55DB}</Project>
+      <Name>tutorial17_rotations</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial18_billboards.vcxproj">
+      <Project>{6347CC10-5D21-39DF-846C-219480FF59C1}</Project>
+      <Name>tutorial18_billboards</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\tutorial18_particles.vcxproj">
+      <Project>{808698BE-9259-3FFF-ABF2-B81CD52DC3C2}</Project>
+      <Name>tutorial18_particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{6413733D-F7E3-3F8C-882A-188718EC6F55}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{2BCCF649-B207-384F-905C-26F3C35E24D3}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kinna\Downloads\OpenGLTutorial_Builds\external\assimp-3.0.1270\contrib\zlib\zlib.vcxproj">
+      <Project>{51F59F05-E0DA-371F-AEDA-F6D5E270780D}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
